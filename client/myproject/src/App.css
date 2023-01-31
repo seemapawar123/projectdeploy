@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+.bg{
+  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  
+
+}
+.ab{
+  margin-left: 500px;
+}
+#img{
+  width:100%;
+  height: 40%;
+}
+#logo{
+  height: 50px;
+  width: 50px;
+
+}
+.column{
+  display:table;
+  width:300px;
+}
+.map{
+  border: 2px solid blue   ;
+}
+
+#cg{
+  color:darkblue;
+  background-color:crimson;
+  border: 2px solid green;
+  text-align: center;
+}
+#pg{
+  text-align: justify;
+  background-image: linear-gradient(blue,white,purple);
+
+}
+.fm{
+  text-align: center;
+  margin-top: 20px;
+}
+.form-control{
+  text-align: center;
+  
+}
+.cc{
+  justify-content: center;
+  margin-top: 50px;
+}
+ #ff{
+  text-align: center;
+  margin-top: 50px;
+  width: 500px;
+  margin-left: 500px;
+  
+  font-family: 'Courier New', Courier, monospace;
+  font-size:20px;
+ 
+ }
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
